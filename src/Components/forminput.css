@@ -1,55 +1,55 @@
 input,
 label {
-    display: flex;
-    font-size: 1.5rem;
-    margin: .7rem 0;
+  display: flex;
+  font-size: 1rem;
+  margin: 0.7rem 0;
 }
 
 input {
-    border-radius: .4rem;
-    border: 1px solid rgb(216, 193, 205);
-    padding: 1rem;
-    font-size: bold;
-    outline: none;
-    background-color: #cfcfcf18;
-    color: white;
-    width: 100%;
+  border-radius: 0.4rem;
+  border: 1px solid rgb(216, 193, 205);
+  padding: 0.5rem;
+  font-size: bold;
+  outline: none;
+  background-color: #cfcfcf18;
+  color: white;
+  width: 100%;
 }
 
 input::placeholder {
-    color: rgba(255, 255, 255, 0.623);
+  color: rgba(255, 255, 255, 0.623);
 }
 
 label {
-    font-size: 2rem;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.815);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.815);
 }
 
 button {
-    font-size: 1.5rem;
-    padding: 1rem 1.5rem;
-    border-radius: .5rem;
-    width: 100%;
-    background-color: #5b0396;
-    color: white;
-    cursor: pointer;
-    margin-top: .5rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  background-color: #5b0396;
+  color: white;
+  cursor: pointer;
+  margin-top: 0.5rem;
 }
 
 button:hover {
-    background-color: #42046b;
+  background-color: #42046b;
 }
 
 span {
-    color: rgb(238, 255, 3);
-    display: none;
+  color: rgb(238, 255, 3);
+  display: none;
+  font-size: 0.8rem;
 }
 
 input:invalid[focused="true"] {
-    border: 1px solid rgb(238, 255, 3);
+  border: 1px solid rgb(238, 255, 3);
 }
 
-input:invalid[focused="true"]~span {
-    display: block;
+input:invalid[focused="true"] ~ span {
+  display: block;
 }
