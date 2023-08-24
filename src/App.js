@@ -16,7 +16,7 @@ function App() {
       id: 1,
       name: 'username',
       type: 'text',
-      placeholder: 'User-name',
+      placeholder: 'Username',
       label: "Username",
       errorMessage: "Username should be 3-16 characters and shouldn't include any special character !!",
       pattern: `^[a-zA-Z0-9]{3,16}$`,
